@@ -22,8 +22,8 @@ npm install @brandcolors/facebook
 
 ### Styles
 
-The styles will create custom properties in `:root {...}`. If you want this custom properties anywhere else, use the
-public mixin `custom-properties`.
+The styles will create custom properties in CSS `root`. If you want this custom properties anywhere else, use the public
+mixin `custom-properties`.
 
 <block-code>
 
