@@ -2,7 +2,7 @@
     "name": "brandcolors",
     "version": "0.0.0",
     "description": "Brand colors collection.",
-    "main": "index.scss",
+    "main": "_index.scss",
     "dependencies": {
     },
     "files": [
