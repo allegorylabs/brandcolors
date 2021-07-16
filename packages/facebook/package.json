@@ -11,7 +11,8 @@
         "brand",
         "colors",
         "sass",
-        "css"
+        "css",
+        "front-end"
     ],
     "license": "MIT",
     "homepage": "https://github.com/allegorylabs/brandcolors/tree/master/packages/facebook",
