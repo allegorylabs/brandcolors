@@ -1,7 +1,7 @@
 {
     "name": "@brandcolors/snapchat",
     "version": "0.0.0",
-    "description": "Snapchat brand colors.",
+    "description": "Snapchat Brand Colors.",
     "main": "_index.scss",
     "dependencies": {
     },

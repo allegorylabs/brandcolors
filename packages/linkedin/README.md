@@ -10,7 +10,7 @@
 
 ## Introduction
 
-LinkedIn brand colors.
+LinkedIn Brand Colors.
 
 ## Installation
 

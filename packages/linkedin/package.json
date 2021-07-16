@@ -1,7 +1,7 @@
 {
     "name": "@brandcolors/linkedin",
     "version": "0.0.0",
-    "description": "LinkedIn brand colors.",
+    "description": "LinkedIn Brand Colors.",
     "main": "_index.scss",
     "dependencies": {
     },

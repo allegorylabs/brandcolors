@@ -10,7 +10,7 @@
 
 ## Introduction
 
-Facebook brand colors.
+Facebook Brand Colors.
 
 ## Installation
 

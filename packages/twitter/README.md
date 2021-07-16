@@ -10,7 +10,7 @@
 
 ## Introduction
 
-Twitter brand colors.
+Twitter Brand Colors.
 
 ## Installation
 

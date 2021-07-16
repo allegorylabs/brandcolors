@@ -1,7 +1,7 @@
 {
     "name": "@brandcolors/facebook",
     "version": "0.0.0",
-    "description": "Facebook brand colors.",
+    "description": "Facebook Brand Colors.",
     "main": "_index.scss",
     "dependencies": {
     },

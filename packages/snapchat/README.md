@@ -10,7 +10,7 @@
 
 ## Introduction
 
-Snapchat brand colors.
+Snapchat Brand Colors.
 
 ## Installation
 
