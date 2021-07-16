@@ -1,7 +1,7 @@
 {
-    "name": "@brandcolors/linkedin",
+    "name": "@brandcolors/snapchat",
     "version": "0.0.0",
-    "description": "LinkedIn brand colors.",
+    "description": "Snapchat brand colors.",
     "main": "index.scss",
     "dependencies": {
     },
@@ -9,20 +9,20 @@
         "*.scss"
     ],
     "keywords": [
-        "linkedin",
+        "snapchat",
         "brand",
         "colors",
         "sass",
         "css"
     ],
     "license": "MIT",
-    "homepage": "https://github.com/allegorylabs/brandcolors/tree/master/packages/linkedin",
+    "homepage": "https://github.com/allegorylabs/brandcolors/tree/master/packages/snapchat",
     "bugs": {
         "url": "https://github.com/allegorylabs/brandcolors/issues"
     },
     "repository": {
         "type": "git",
         "url": "https://github.com/allegorylabs/brandcolors.git",
-        "directory": "packages/linkedin"
+        "directory": "packages/snapchat"
     }
 }
