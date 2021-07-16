@@ -4,6 +4,11 @@
     "description": "Brand colors collection.",
     "main": "_index.scss",
     "dependencies": {
+        "@brandcolors/facebook": "^0.0.0",
+        "@brandcolors/linkedin": "^0.0.0",
+        "@brandcolors/snapchat": "^0.0.0",
+        "@brandcolors/twitter": "^0.0.0",
+        "@brandcolors/whatsapp": "^0.0.0"
     },
     "files": [
         "*.scss"

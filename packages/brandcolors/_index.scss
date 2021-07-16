@@ -2,8 +2,8 @@
 //                                         BRAND COLORS                                          //
 // ============================================================================================= //
 
-@forward "../facebook" as facebook-*;
-@forward "../linkedin" as linkedin-*;
-@forward "../twitter" as twitter-*;
-@forward "../snapchat" as snapchat-*;
-@forward "../whatsapp" as whatsapp-*;
+@forward "@brandcolors/facebook" as facebook-*;
+@forward "@brandcolors/linkedin" as linkedin-*;
+@forward "@brandcolors/twitter" as twitter-*;
+@forward "@brandcolors/snapchat" as snapchat-*;
+@forward "@brandcolors/whatsapp" as whatsapp-*;

@@ -2,11 +2,11 @@
 //                                         BRAND COLORS                                          //
 // ============================================================================================= //
 
-@use "../facebook";
-@use "../linkedin";
-@use "../twitter";
-@use "../snapchat";
-@use "../whatsapp";
+@use "@brandcolors/facebook";
+@use "@brandcolors/linkedin";
+@use "@brandcolors/twitter";
+@use "@brandcolors/snapchat";
+@use "@brandcolors/whatsapp";
 
 :root {
     @include facebook.custom-properties;
