@@ -1,0 +1,28 @@
+{
+    "name": "@brandcolors/linkedin",
+    "version": "0.0.0",
+    "description": "Linkedin brand colors.",
+    "main": "index.scss",
+    "dependencies": {
+    },
+    "files": [
+        "*.scss"
+    ],
+    "keywords": [
+        "linkedin",
+        "brand",
+        "colors",
+        "sass",
+        "css"
+    ],
+    "license": "MIT",
+    "homepage": "https://github.com/allegorylabs/brandcolors/tree/master/packages/linkedin",
+    "bugs": {
+        "url": "https://github.com/allegorylabs/brandcolors/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/allegorylabs/brandcolors.git",
+        "directory": "packages/linkedin"
+    }
+}

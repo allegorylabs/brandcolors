@@ -1,0 +1,28 @@
+{
+    "name": "@brandcolors/facebook",
+    "version": "0.0.0",
+    "description": "Facebook brand colors.",
+    "main": "index.scss",
+    "dependencies": {
+    },
+    "files": [
+        "*.scss"
+    ],
+    "keywords": [
+        "facebook",
+        "brand",
+        "colors",
+        "sass",
+        "css"
+    ],
+    "license": "MIT",
+    "homepage": "https://github.com/allegorylabs/brandcolors/tree/master/packages/facebook",
+    "bugs": {
+        "url": "https://github.com/allegorylabs/brandcolors/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/allegorylabs/brandcolors.git",
+        "directory": "packages/facebook"
+    }
+}
