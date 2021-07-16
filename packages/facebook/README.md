@@ -24,9 +24,9 @@ npm install @brandcolors/facebook
 @use "@brandcolors/facebook";
 
 .foo {
-    color: facebook.$brand;
+    color: facebook.$primary;
     // color: #1877f2;
-    color: facebook.$brand-rgb;
+    color: facebook.$primary-rgb;
     // color: rgb(24, 119, 242);
 }
 ```
@@ -37,5 +37,5 @@ npm install @brandcolors/facebook
 
 | Variable | Value |
 | --- | --- |
-| `$brand` | Return `#...`. |
-| `$brand-rgb` | Return `rgb(...)`. |
+| `$primary` | Return `#...`. |
+| `$primary-rgb` | Return `rgb(...)`. |

@@ -24,9 +24,9 @@ npm install @brandcolors/twitter
 @use "@brandcolors/twitter";
 
 .foo {
-    color: twitter.$brand;
+    color: twitter.$primary;
     // color: #1da1f2;
-    color: twitter.$brand-rgb;
+    color: twitter.$primary-rgb;
     // color: rgb(29, 161, 242);
 }
 ```
@@ -37,5 +37,5 @@ npm install @brandcolors/twitter
 
 | Variable | Value |
 | --- | --- |
-| `$brand` | Return `#...`. |
-| `$brand-rgb` | Return `rgb(...)`. |
+| `$primary` | Return `#...`. |
+| `$primary-rgb` | Return `rgb(...)`. |

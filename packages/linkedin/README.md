@@ -24,9 +24,9 @@ npm install @brandcolors/linkedin
 @use "@brandcolors/linkedin";
 
 .foo {
-    color: linkedin.$brand;
+    color: linkedin.$primary;
     // color: #1da1f2;
-    color: linkedin.$brand-rgb;
+    color: linkedin.$primary-rgb;
     // color: rgb(29, 161, 242);
 }
 ```
@@ -37,5 +37,5 @@ npm install @brandcolors/linkedin
 
 | Variable | Value |
 | --- | --- |
-| `$brand` | Return `#...`. |
-| `$brand-rgb` | Return `rgb(...)`. |
+| `$primary` | Return `#...`. |
+| `$primary-rgb` | Return `rgb(...)`. |

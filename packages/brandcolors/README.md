@@ -24,18 +24,9 @@ npm install brandcolors
 @use "brandcolors";
 
 .foo {
-    color: brandcolors.$twitter-brand;
+    color: brandcolors.$twitter-primary;
     // color: #1da1f2;
-    color: brandcolors.$twitter-brand-rgb;
+    color: brandcolors.$twitter-primary-rgb;
     // color: rgb(29, 161, 242);
 }
 ```
-
-## API
-
-### Variables
-
-| Variable | Value |
-| --- | --- |
-| `$brand` | Return `#...`. |
-| `$brand-rgb` | Return `rgb(...)`. |

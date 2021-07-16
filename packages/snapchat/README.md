@@ -24,9 +24,9 @@ npm install @brandcolors/snapchat
 @use "@brandcolors/snapchat";
 
 .foo {
-    color: snapchat.$brand;
+    color: snapchat.$primary;
     // color: #fffc00;
-    color: snapchat.$brand-rgb;
+    color: snapchat.$primary-rgb;
     // color: rgb(255, 252, 0);
 }
 ```
@@ -37,5 +37,5 @@ npm install @brandcolors/snapchat
 
 | Variable | Value |
 | --- | --- |
-| `$brand` | Return `#...`. |
-| `$brand-rgb` | Return `rgb(...)`. |
+| `$primary` | Return `#...`. |
+| `$primary-rgb` | Return `rgb(...)`. |
