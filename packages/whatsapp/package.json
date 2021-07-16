@@ -1,0 +1,28 @@
+{
+    "name": "@brandcolors/whatsapp",
+    "version": "0.0.0",
+    "description": "WhatsApp Brand Colors.",
+    "main": "_index.scss",
+    "dependencies": {
+    },
+    "files": [
+        "*.scss"
+    ],
+    "keywords": [
+        "whatsapp",
+        "brand",
+        "colors",
+        "sass",
+        "css"
+    ],
+    "license": "MIT",
+    "homepage": "https://github.com/allegorylabs/brandcolors/tree/master/packages/whatsapp",
+    "bugs": {
+        "url": "https://github.com/allegorylabs/brandcolors/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/allegorylabs/brandcolors.git",
+        "directory": "packages/whatsapp"
+    }
+}

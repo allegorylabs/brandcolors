@@ -6,10 +6,12 @@
 @use "../linkedin";
 @use "../twitter";
 @use "../snapchat";
+@use "../whatsapp";
 
 :root {
     @include facebook.custom-properties;
     @include linkedin.custom-properties;
     @include twitter.custom-properties;
     @include snapchat.custom-properties;
+    @include whatsapp.custom-properties;
 }
