@@ -1,7 +1,7 @@
 {
     "name": "brandcolors",
     "version": "0.0.0",
-    "description": "Brand colors.",
+    "description": "Brand colors collection.",
     "main": "index.scss",
     "dependencies": {
     },
