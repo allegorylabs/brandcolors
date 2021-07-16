@@ -1,0 +1,15 @@
+// ============================================================================================= //
+//                                         BRAND COLORS                                          //
+// ============================================================================================= //
+
+@use "../facebook";
+@use "../linkedin";
+@use "../twitter";
+@use "../snapchat";
+
+:root {
+    @include facebook.custom-properties;
+    @include linkedin.custom-properties;
+    @include twitter.custom-properties;
+    @include snapchat.custom-properties;
+}

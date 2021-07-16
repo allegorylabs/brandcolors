@@ -20,6 +20,21 @@ npm install @brandcolors/twitter
 
 ## Usage
 
+### Styles
+
+The styles will create custom properties in `:root {...}`. If you want this custom properties anywhere else, use the
+public mixin `custom-properties`.
+
+<block-code>
+
+```scss
+@use "@brandcolors/twitter/styles";
+```
+
+</block-code>
+
+## Theming
+
 ```scss
 @use "@brandcolors/twitter";
 
@@ -39,3 +54,9 @@ npm install @brandcolors/twitter
 | --- | --- |
 | `$primary` | Return `#...`. |
 | `$primary-rgb` | Return `rgb(...)`. |
+
+### Mixins
+
+| Mixin | Description |
+| --- | --- |
+| `custom-properties` | Create custom property for each variables register. Ex. `--bc-twitter-primary: #1da1f2` |

@@ -20,6 +20,20 @@ npm install brandcolors
 
 ## Usage
 
+### Styles
+
+The styles will create all custom properties in `:root {...}`.
+
+<block-code>
+
+```scss
+@use "@brandcolors/styles";
+```
+
+</block-code>
+
+## Theming
+
 ```scss
 @use "brandcolors";
 
