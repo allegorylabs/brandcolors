@@ -1,0 +1,24 @@
+{
+    "name": "brandcolors",
+    "version": "0.0.0",
+    "description": "Brand colors.",
+    "main": "index.scss",
+    "dependencies": {
+    },
+    "files": [
+        "*.scss"
+    ],
+    "keywords": [
+        "brand",
+        "colors",
+        "sass",
+        "css"
+    ],
+    "license": "MIT",
+    "homepage": "https://github.com/allegorylabs/brandcolors",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/allegorylabs/brandcolors.git",
+        "directory": "packages/brandcolors"
+    }
+}
