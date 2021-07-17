@@ -1,6 +1,6 @@
 {
     "name": "@brandcolors/twitter",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "description": "Twitter Brand Colors.",
     "main": "_index.scss",
     "files": [
