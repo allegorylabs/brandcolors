@@ -46,6 +46,19 @@ mixin `custom-properties`.
 }
 ```
 
+### Custom Properties
+
+```scss
+@use "@brandcolors/snapchat";
+
+:root {
+    @include snapchat.custom-properties(primary);
+    // --bc-snapchat-primary: #fffc00;
+    @include snapchat.custom-properties(primary-rgb);
+    // --bc-snapchat-primary-rgb: rgb(255, 252, 0);
+}
+```
+
 ## API
 
 ### Variables
@@ -59,4 +72,4 @@ mixin `custom-properties`.
 
 | Mixin | Description |
 | --- | --- |
-| `custom-properties` | Create custom property for each variables register. Ex. `--bc-snapchat-primary: #1da1f2` |
+| `custom-properties($values...)` | Create custom property on `root`. If the `$values` is empty, the mixin will create all styles by default. |

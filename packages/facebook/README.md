@@ -46,6 +46,19 @@ mixin `custom-properties`.
 }
 ```
 
+### Custom Properties
+
+```scss
+@use "@brandcolors/facebook";
+
+:root {
+    @include facebook.custom-properties(primary);
+    // --bc-facebook-primary: #1877f2;
+    @include facebook.custom-properties(primary-rgb);
+    // --bc-facebook-primary-rgb: rgb(24, 119, 242);
+}
+```
+
 ## API
 
 ### Variables
@@ -59,4 +72,4 @@ mixin `custom-properties`.
 
 | Mixin | Description |
 | --- | --- |
-| `custom-properties` | Create custom property for each variables register. Ex. `--bc-facebook-primary: #1877f2` |
+| `custom-properties($values...)` | Create custom property on `root`. If the `$values` is empty, the mixin will create all styles by default. |

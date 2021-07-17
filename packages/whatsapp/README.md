@@ -46,6 +46,19 @@ mixin `custom-properties`.
 }
 ```
 
+### Custom Properties
+
+```scss
+@use "@brandcolors/whatsapp";
+
+:root {
+    @include whatsapp.custom-properties(primary);
+    // --bc-whatsapp-primary: #1da1f2;
+    @include whatsapp.custom-properties(primary-rgb);
+    // --bc-whatsapp-primary-rgb: rgb(29, 161, 242);
+}
+```
+
 ## API
 
 ### Variables
@@ -59,4 +72,4 @@ mixin `custom-properties`.
 
 | Mixin | Description |
 | --- | --- |
-| `custom-properties` | Create custom property for each variables register. Ex. `--bc-whatsapp-primary: #1da1f2` |
+| `custom-properties($values...)` | Create custom property on `root`. If the `$values` is empty, the mixin will create all styles by default. |

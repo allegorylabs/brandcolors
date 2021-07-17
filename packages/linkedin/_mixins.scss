@@ -2,6 +2,7 @@
 //                                            MIXINS                                             //
 // ============================================================================================= //
 
+@use "sass:list";
 @use "sass:map";
 @use "./variables";
 
@@ -15,15 +16,24 @@
 // PRIVATES
 // ------------------------------------------------------------------------- //
 
-// ...
+@mixin _set-custom-property($style) {
+    --bc-linkedin-#{$style}: #{map.get(variables.$property-values, $style)};
+}
 
 // ------------------------------------------------------------------------- //
 // PUBLIC
 // ------------------------------------------------------------------------- //
 
-@mixin custom-properties {
-    @each $style in map.keys(variables.$property-values) {
-        --bc-linkedin-#{$style}: #{map.get(variables.$property-values, $style)};
+@mixin custom-properties($values...) {
+    @if list.length($values) > 0 {
+        @each $value in $values {
+            @if #{map.get(variables.$property-values, $value)} {
+                @include _set-custom-property($value);
+            }
+        }
+    } @else {
+        @each $style in map.keys(variables.$property-values) {
+            @include _set-custom-property($style);
+        }
     }
 }
-
