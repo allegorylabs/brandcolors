@@ -1,0 +1,31 @@
+{
+    "name": "@brandcolors/collection",
+    "version": "0.0.0",
+    "description": "Brand Colors Collection.",
+    "main": "_index.scss",
+    "dependencies": {
+        "@brandcolors/facebook": "^1.0.0",
+        "@brandcolors/linkedin": "^1.0.0",
+        "@brandcolors/snapchat": "^1.0.0",
+        "@brandcolors/twitter": "^1.0.0",
+        "@brandcolors/whatsapp": "^1.0.0"
+    },
+    "files": [
+        "*.scss"
+    ],
+    "keywords": [
+        "brand",
+        "colors",
+        "collection",
+        "sass",
+        "css",
+        "front-end"
+    ],
+    "license": "MIT",
+    "homepage": "https://github.com/allegorylabs/brandcolors",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/allegorylabs/brandcolors.git",
+        "directory": "packages/brandcolors"
+    }
+}
