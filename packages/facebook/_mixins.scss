@@ -27,7 +27,7 @@
 @mixin custom-properties($values...) {
     @if list.length($values) > 0 {
         @each $value in $values {
-            @if #{map.get(variables.$property-values, $value)} {
+            @if map.get(variables.$property-values, $value) {
                 @include _set-custom-property($value);
             }
         }
