@@ -22,9 +22,6 @@ npm install @brandcolors/snapchat
 
 ### Styles
 
-The styles will create custom properties in CSS `root`. If you want this custom properties anywhere else, use the public
-mixin `custom-properties`.
-
 <block-code>
 
 ```scss
@@ -32,6 +29,9 @@ mixin `custom-properties`.
 ```
 
 </block-code>
+
+The styles will create all custom properties in CSS `root`. If you want this custom properties anywhere else, use the
+public mixin `custom-properties`.
 
 ## Theming
 
@@ -72,4 +72,4 @@ mixin `custom-properties`.
 
 | Mixin | Description |
 | --- | --- |
-| `custom-properties($values...)` | Create custom property on `root`. If the `$values` is empty, the mixin will create all styles by default. |
+| `custom-properties($values...)` | Create dedicated custom property. If the `$values` is empty, the mixin will create all styles by default. |
