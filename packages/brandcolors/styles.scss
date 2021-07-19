@@ -3,15 +3,19 @@
 // ============================================================================================= //
 
 @use "@brandcolors/facebook";
+@use "@brandcolors/google";
 @use "@brandcolors/linkedin";
 @use "@brandcolors/twitter";
 @use "@brandcolors/snapchat";
 @use "@brandcolors/whatsapp";
+@use "@brandcolors/youtube";
 
 :root {
     @include facebook.custom-properties;
+    @include google.custom-properties;
     @include linkedin.custom-properties;
     @include twitter.custom-properties;
     @include snapchat.custom-properties;
     @include whatsapp.custom-properties;
+    @include youtube.custom-properties;
 }
