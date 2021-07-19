@@ -65,12 +65,12 @@ public mixin `custom-properties`.
 
 | Variable | Value |
 | --- | --- |
-| `$primary` | Return `#...` color. |
-| `$primary-rgb` | Return `rgb(...)` color. |
-| `$blue` | Return `#...` color. |
-| `$green` | Return `#...` color. |
-| `$yellow` | Return `#...` color. |
-| `$red` | Return `#...` color. |
+| `$primary` | Return hex value color. |
+| `$primary-rgb` | Return `rgb` color. |
+| `$blue` | Return hex value color. |
+| `$green` | Return hex value color. |
+| `$yellow` | Return hex value color. |
+| `$red` | Return hex value color. |
 
 ### Mixins
 
