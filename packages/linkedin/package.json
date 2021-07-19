@@ -1,6 +1,6 @@
 {
     "name": "@brandcolors/linkedin",
-    "version": "1.1.0",
+    "version": "1.2.1",
     "description": "LinkedIn Brand Colors.",
     "main": "_index.scss",
     "files": [
