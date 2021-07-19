@@ -65,8 +65,8 @@ public mixin `custom-properties`.
 
 | Variable | Value |
 | --- | --- |
-| `$primary` | Return `#...`. |
-| `$primary-rgb` | Return `rgb(...)`. |
+| `$primary` | Return `#...` color. |
+| `$primary-rgb` | Return `rgb(...)` color. |
 
 ### Mixins
 
