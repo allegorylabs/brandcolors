@@ -1,0 +1,39 @@
+// ============================================================================================= //
+//                                            MIXINS                                             //
+// ============================================================================================= //
+
+@use "sass:list";
+@use "sass:map";
+@use "./variables";
+
+@mixin core-styles {
+    :root {
+        @include custom-properties;
+    }
+}
+
+// ------------------------------------------------------------------------- //
+// PRIVATES
+// ------------------------------------------------------------------------- //
+
+@mixin _set-custom-property($style) {
+    --bc-google-#{$style}: #{map.get(variables.$property-values, $style)};
+}
+
+// ------------------------------------------------------------------------- //
+// PUBLIC
+// ------------------------------------------------------------------------- //
+
+@mixin custom-properties($values...) {
+    @if list.length($values) > 0 {
+        @each $value in $values {
+            @if map.get(variables.$property-values, $value) {
+                @include _set-custom-property($value);
+            }
+        }
+    } @else {
+        @each $style in map.keys(variables.$property-values) {
+            @include _set-custom-property($style);
+        }
+    }
+}

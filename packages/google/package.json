@@ -1,0 +1,27 @@
+{
+    "name": "@brandcolors/google",
+    "version": "0.0.0",
+    "description": "Google Brand Colors.",
+    "main": "_index.scss",
+    "files": [
+        "*.scss"
+    ],
+    "keywords": [
+        "google",
+        "brand",
+        "colors",
+        "sass",
+        "css",
+        "front-end"
+    ],
+    "license": "MIT",
+    "homepage": "https://github.com/allegorylabs/brandcolors/tree/master/packages/google",
+    "bugs": {
+        "url": "https://github.com/allegorylabs/brandcolors/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/allegorylabs/brandcolors.git",
+        "directory": "packages/google"
+    }
+}
