@@ -3,16 +3,18 @@
     "description": "Brand Colors.",
     "scripts": {
         "postinstall": "lerna bootstrap --hoist",
-        "prepare": "husky install"
+        "prepare": "husky install",
+        "release:dry": "lerna version --no-push",
+        "release": "lerna publish"
     },
     "engines": {
         "node": ">=12.0.0",
         "npm": ">=7.0.0"
     },
     "devDependencies": {
-        "@commitlint/cli": "^12.1.4",
-        "@commitlint/config-conventional": "^12.1.4",
-        "husky": "^7.0.1",
+        "@commitlint/cli": "^13.1.0",
+        "@commitlint/config-conventional": "^13.1.0",
+        "husky": "^7.0.2",
         "lerna": "^4.0.0"
     },
     "author": "The Sass Collective Authors",
