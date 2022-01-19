@@ -1,0 +1,27 @@
+{
+    "name": "@brandcolors/core",
+    "version": "1.3.0",
+    "description": "Brand Colors Core.",
+    "main": "_index.scss",
+    "files": [
+        "*.scss"
+    ],
+    "keywords": [
+        "brand",
+        "colors",
+        "core",
+        "sass",
+        "css",
+        "front-end"
+    ],
+    "license": "MIT",
+    "homepage": "https://github.com/allegorylabs/brandcolors/tree/main/packages/core",
+    "bugs": {
+        "url": "https://github.com/allegorylabs/brandcolors/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/allegorylabs/brandcolors.git",
+        "directory": "packages/core"
+    }
+}
