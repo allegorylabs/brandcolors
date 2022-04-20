@@ -18,6 +18,18 @@ Brand Colors Collection.
 npm install brandcolors
 ```
 
+## Usage
+
+### Styles
+
+```scss
+@use "brandcolors";
+
+.foo {
+    color: brandcolors.$facebook;
+}
+```
+
 ## Colors
 
 ### Facebook

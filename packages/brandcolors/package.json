@@ -6,15 +6,6 @@
         "prepare": "json-to-scss ./src/colors.json ./_variables.scss --fk"
     },
     "main": "_index.scss",
-    "dependencies": {
-        "@brandcolors/facebook": "^1.3.0",
-        "@brandcolors/google": "^1.3.0",
-        "@brandcolors/linkedin": "^1.3.0",
-        "@brandcolors/snapchat": "^1.3.0",
-        "@brandcolors/twitter": "^1.3.0",
-        "@brandcolors/whatsapp": "^1.3.0",
-        "@brandcolors/youtube": "^1.3.0"
-    },
     "files": [
         "*.scss"
     ],
