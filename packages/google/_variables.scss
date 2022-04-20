@@ -2,13 +2,16 @@
 //                                           VARIABLES                                           //
 // ============================================================================================= //
 
-$primary: #4285f4;
-$primary-rgb: rgb(66, 133, 244);
+@use "sass:color";
+@use "brandcolors/variables";
 
-$blue: $primary;
-$green: #0f9d58;
-$yellow: #f4b400;
-$red: #db4437;
+$primary: #4285f4;
+$primary-rgb: rgb(color.red($primary), color.green($primary), color.blue($primary));
+
+$blue: variables.$google;
+$green: variables.$google-2;
+$yellow: variables.$google-3;
+$red: variables.$google-4;
 
 // ------------------------------------------------------------------------- //
 // PROPERTY VALUES

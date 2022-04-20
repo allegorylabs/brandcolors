@@ -35,7 +35,7 @@ describe('Sass', () => {
             file,
             includePaths: [
                 './node_modules',
-                './packages/**/node_modules',
+                './packages/google/node_modules',
             ]
         }, {
             describe,

@@ -63,17 +63,17 @@ public mixin `custom-properties`.
 
 ### Variables
 
-| Variable | Value |
-| --- | --- |
-| `$primary` | Return hex value color. |
-| `$primary-rgb` | Return `rgb` color. |
-| `$blue` | Return hex value color. |
-| `$green` | Return hex value color. |
-| `$yellow` | Return hex value color. |
-| `$red` | Return hex value color. |
+| Variable       | Value                   |
+|----------------|-------------------------|
+| `$primary`     | Return hex value color. |
+| `$primary-rgb` | Return `rgb` color.     |
+| `$blue`        | Return hex value color. |
+| `$green`       | Return hex value color. |
+| `$yellow`      | Return hex value color. |
+| `$red`         | Return hex value color. |
 
 ### Mixins
 
-| Mixin | Description |
-| --- | --- |
+| Mixin                           | Description                                                                                               |
+|---------------------------------|-----------------------------------------------------------------------------------------------------------|
 | `custom-properties($values...)` | Create dedicated custom property. If the `$values` is empty, the mixin will create all styles by default. |

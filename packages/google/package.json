@@ -3,6 +3,9 @@
     "version": "1.3.0",
     "description": "Google Brand Colors.",
     "main": "_index.scss",
+    "dependencies": {
+        "brandcolors": "1.3.0"
+    },
     "files": [
         "*.scss"
     ],
