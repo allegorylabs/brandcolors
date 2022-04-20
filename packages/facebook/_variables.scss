@@ -2,8 +2,11 @@
 //                                           VARIABLES                                           //
 // ============================================================================================= //
 
-$primary: #1877f2;
-$primary-rgb: rgb(24, 119, 242);
+@use "sass:color";
+@use "brandcolors/variables";
+
+$primary: variables.$facebook;
+$primary-rgb: rgb(color.red($primary), color.green($primary), color.blue($primary));
 
 // ------------------------------------------------------------------------- //
 // PROPERTY VALUES

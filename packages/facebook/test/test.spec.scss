@@ -1,0 +1,40 @@
+// ============================================================================================= //
+//                                             TEST                                              //
+// ============================================================================================= //
+
+@use "true" as *;
+@use "../index" as facebook;
+
+@include describe("facebook") {
+    @include it("Should return hex color declaration.") {
+        @include assert {
+            @include output(false) {
+                .test {
+                    color: facebook.$primary;
+                }
+            }
+
+            @include expect(false) {
+                .test {
+                    color: #1877f2;
+                }
+            }
+        }
+    }
+
+    @include it("Should return rgb color declaration.") {
+        @include assert {
+            @include output(false) {
+                .test {
+                    color: facebook.$primary-rgb;
+                }
+            }
+
+            @include expect(false) {
+                .test {
+                    color: rgb(24, 119, 242);
+                }
+            }
+        }
+    }
+}
