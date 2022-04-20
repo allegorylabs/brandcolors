@@ -3,7 +3,7 @@
 // ============================================================================================= //
 
 @use "sass:color";
-@use "brandcolors/variables";
+@use "@brandcolors/core/variables";
 
 $primary: variables.$google;
 $primary-rgb: rgb(color.red($primary), color.green($primary), color.blue($primary));

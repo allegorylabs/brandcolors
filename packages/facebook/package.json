@@ -4,7 +4,7 @@
     "description": "Facebook Brand Colors.",
     "main": "_index.scss",
     "dependencies": {
-        "brandcolors": "^1.4.0"
+        "@brandcolors/core": "^1.4.0"
     },
     "files": [
         "*.scss"

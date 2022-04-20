@@ -1,5 +1,5 @@
 {
-    "name": "brandcolors",
+    "name": "@brandcolors/core",
     "version": "1.4.0",
     "description": "Official Brand Colors Collection.",
     "scripts": {
@@ -22,6 +22,6 @@
     "repository": {
         "type": "git",
         "url": "https://github.com/allegorylabs/brandcolors.git",
-        "directory": "packages/brandcolors"
+        "directory": "packages/core"
     }
 }

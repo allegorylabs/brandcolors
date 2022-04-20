@@ -23,7 +23,7 @@ npm install brandcolors
 ### Styles
 
 ```scss
-@use "brandcolors";
+@use "@brandcolors/core" as brandcolors;
 
 .foo {
     color: brandcolors.$facebook;
