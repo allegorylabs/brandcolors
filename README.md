@@ -6,7 +6,25 @@
 
 ## Introduction
 
-Brand Colors.
+Official Brand Colors Collection.
+
+## Installation
+
+```shell
+npm install @brandcolors/core
+```
+
+## Usage
+
+### Styles
+
+```scss
+@use "@brandcolors/core" as brandcolors;
+
+.foo {
+    color: brandcolors.$facebook;
+}
+```
 
 ## Packages
 

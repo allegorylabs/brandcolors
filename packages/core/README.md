@@ -4,9 +4,9 @@
 
 </div>
 
-[![Version](https://flat.badgen.net/npm/v/brandcolors)](https://www.npmjs.com/package/brandcolors)
-[![Download](https://flat.badgen.net/npm/dt/brandcolors)](https://www.npmjs.com/package/brandcolors)
-[![License](https://flat.badgen.net/npm/license/brandcolors)](https://www.npmjs.com/package/brandcolors)
+[![Version](https://flat.badgen.net/npm/v/@brandcolors/core)](https://www.npmjs.com/package/@brandcolors/core)
+[![Download](https://flat.badgen.net/npm/dt/@brandcolors/core)](https://www.npmjs.com/package/@brandcolors/core)
+[![License](https://flat.badgen.net/npm/license/@brandcolors/core)](https://www.npmjs.com/package/@brandcolors/core)
 
 ## Introduction
 
@@ -15,7 +15,7 @@ Brand Colors Collection.
 ## Installation
 
 ```shell
-npm install brandcolors
+npm install @brandcolors/core
 ```
 
 ## Usage
