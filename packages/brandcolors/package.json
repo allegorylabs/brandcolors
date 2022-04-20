@@ -1,6 +1,6 @@
 {
     "name": "brandcolors",
-    "version": "1.3.0",
+    "version": "1.4.0",
     "description": "Official Brand Colors Collection.",
     "scripts": {
         "prepare": "json-to-scss ./src/colors.json ./_variables.scss --fk"
