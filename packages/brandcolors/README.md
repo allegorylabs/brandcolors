@@ -18,29 +18,57 @@ Brand Colors Collection.
 npm install brandcolors
 ```
 
-## Usage
+## Colors
 
-### Styles
+### Facebook
 
-The styles will create all custom properties in CSS `root`.
+| Token       | Value     |
+|-------------|-----------|
+| `$facebook` | `#1877f2` |
 
-<block-code>
+### Google
 
-```scss
-@use "brandcolors/styles";
-```
+| Token       | Value     |
+|-------------|-----------|
+| `$google`   | `#4285f4` |
+| `$google-2` | `#34a853` |
+| `$google-3` | `#fbbc05` |
+| `$google-4` | `#ea4335` |
 
-</block-code>
+### Linkedin
 
-## Theming
+| Token       | Value     |
+|-------------|-----------|
+| `$linkedin` | `#0a66c2` |
 
-```scss
-@use "brandcolors" as brandcolors;
+### Snapchat
 
-.foo {
-    color: brandcolors.$twitter-primary;
-    // color: #1da1f2;
-    color: brandcolors.$twitter-primary-rgb;
-    // color: rgb(29, 161, 242);
-}
-```
+| Token       | Value     |
+|-------------|-----------|
+| `$snapchat` | `#fffc00` |
+
+### Twitter
+
+| Token      | Value     |
+|------------|-----------|
+| `$twitter` | `#1d9bf0` |
+
+### Vimeo
+
+| Token      | Value     |
+|------------|-----------|
+| `$vimeo`   | `#1ab7ea` |
+| `$vimeo-2` | `#162221` |
+
+### WhatsApp
+
+| Token       | Value     |
+|-------------|-----------|
+| `$whatsapp` | `#25d366` |
+
+### Youtube
+
+| Token        | Value     |
+|--------------|-----------|
+| `$youtube`   | `#ff0000` |
+| `$youtube-2` | `#212121` |

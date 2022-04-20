@@ -5,7 +5,7 @@
 @use "sass:color";
 @use "brandcolors/variables";
 
-$primary: #4285f4;
+$primary: variables.$google;
 $primary-rgb: rgb(color.red($primary), color.green($primary), color.blue($primary));
 
 $blue: variables.$google;
