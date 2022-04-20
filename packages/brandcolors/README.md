@@ -4,9 +4,9 @@
 
 </div>
 
-[![Version](https://flat.badgen.net/npm/v/@brandcolors/collection)](https://www.npmjs.com/package/@brandcolors/collection)
-[![Download](https://flat.badgen.net/npm/dt/@brandcolors/collection)](https://www.npmjs.com/package/@brandcolors/collection)
-[![License](https://flat.badgen.net/npm/license/@brandcolors/collection)](https://www.npmjs.com/package/@brandcolors/collection)
+[![Version](https://flat.badgen.net/npm/v/brandcolors)](https://www.npmjs.com/package/brandcolors)
+[![Download](https://flat.badgen.net/npm/dt/brandcolors)](https://www.npmjs.com/package/brandcolors)
+[![License](https://flat.badgen.net/npm/license/brandcolors)](https://www.npmjs.com/package/brandcolors)
 
 ## Introduction
 
@@ -15,7 +15,7 @@ Brand Colors Collection.
 ## Installation
 
 ```shell
-npm install @brandcolors/collection
+npm install brandcolors
 ```
 
 ## Usage
@@ -27,7 +27,7 @@ The styles will create all custom properties in CSS `root`.
 <block-code>
 
 ```scss
-@use "@brandcolors/collection/styles";
+@use "brandcolors/styles";
 ```
 
 </block-code>
@@ -35,7 +35,7 @@ The styles will create all custom properties in CSS `root`.
 ## Theming
 
 ```scss
-@use "@brandcolors/collection" as brandcolors;
+@use "brandcolors" as brandcolors;
 
 .foo {
     color: brandcolors.$twitter-primary;

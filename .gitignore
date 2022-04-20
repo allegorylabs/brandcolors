@@ -2,6 +2,7 @@
 *.log
 *.orig
 *.lerna_backup
+junit.xml
 /packages/*/package-lock.json
 
 ## Folders
