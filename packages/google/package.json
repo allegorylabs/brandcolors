@@ -4,7 +4,7 @@
     "description": "Google Brand Colors.",
     "main": "_index.scss",
     "dependencies": {
-        "@brandcolors/core": "^1.6.0"
+        "@brandcolors/brandcolors": "^1.6.0"
     },
     "files": [
         "*.scss"

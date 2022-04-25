@@ -4,9 +4,9 @@
 
 </div>
 
-[![Version](https://flat.badgen.net/npm/v/@brandcolors/core)](https://www.npmjs.com/package/@brandcolors/core)
-[![Download](https://flat.badgen.net/npm/dt/@brandcolors/core)](https://www.npmjs.com/package/@brandcolors/core)
-[![License](https://flat.badgen.net/npm/license/@brandcolors/core)](https://www.npmjs.com/package/@brandcolors/core)
+[![Version](https://flat.badgen.net/npm/v/@brandcolors/brandcolors)](https://www.npmjs.com/package/@brandcolors/brandcolors)
+[![Download](https://flat.badgen.net/npm/dt/@brandcolors/brandcolors)](https://www.npmjs.com/package/@brandcolors/brandcolors)
+[![License](https://flat.badgen.net/npm/license/@brandcolors/brandcolors)](https://www.npmjs.com/package/@brandcolors/brandcolors)
 
 ## Introduction
 
@@ -15,7 +15,7 @@ Brand Colors Collection.
 ## Installation
 
 ```shell
-npm install @brandcolors/core
+npm install @brandcolors/brandcolors
 ```
 
 ## Usage
@@ -23,7 +23,7 @@ npm install @brandcolors/core
 ### Styles
 
 ```scss
-@use "@brandcolors/core" as brandcolors;
+@use "@brandcolors/brandcolors";
 
 .foo {
     color: brandcolors.$facebook;
@@ -32,29 +32,46 @@ npm install @brandcolors/core
 
 ## Colors
 
-| Token        | Value     |
-|--------------|-----------|
-| `$adobe`     | `#ff0000` |
-| `$airbnb`    | `#fd5c63` |
-| `$airbus`    | `#00205b` |
-| `$airbus-2`  | `#005587` |
-| `$airbus-3`  | `#0085ad` |
-| `$airbus-4`  | `#6399ae` |
-| `$airbus-5`  | `#b7c9d3` |
-| `$amazon`    | `#ff9900` |
-| `$amazon-2`  | `#146eb4` |
-| `$android`   | `#a4c639` |
-| `$coca-cola` | `#ed1c16` |
-| `$facebook`  | `#1877f2` |
-| `$google`    | `#4285f4` |
-| `$google-2`  | `#34a853` |
-| `$google-3`  | `#fbbc05` |
-| `$google-4`  | `#ea4335` |
-| `$linkedin`  | `#0a66c2` |
-| `$snapchat`  | `#fffc00` |
-| `$twitter`   | `#1d9bf0` |
-| `$vimeo`     | `#1ab7ea` |
-| `$vimeo-2`   | `#162221` |
-| `$whatsapp`  | `#25d366` |
-| `$youtube`   | `#ff0000` |
-| `$youtube-2` | `#212121` |
+| Token            | Value     |
+|------------------|-----------|
+| `$adobe`         | `#ff0000` |
+| `$airbnb`        | `#fd5c63` |
+| `$airbus`        | `#00205b` |
+| `$airbus-2`      | `#005587` |
+| `$airbus-3`      | `#0085ad` |
+| `$airbus-4`      | `#6399ae` |
+| `$airbus-5`      | `#b7c9d3` |
+| `$amazon`        | `#ff9900` |
+| `$amazon-2`      | `#146eb4` |
+| `$android`       | `#a4c639` |
+| `$amex`          | `#002663` |
+| `$boeing`        | `#0033a1` |
+| `$coca-cola`     | `#ed1c16` |
+| `$dailymotion`   | `#00aaff` |
+| `$dailymotion-2` | `#00d2f3` |
+| `$deezer`        | `#ff0000` |
+| `$deliveroo`     | `#00c1b2` |
+| `$dell`          | `#0085c3` |
+| `$digital-ocean` | `#008bcf` |
+| `$discord`       | `#7289da` |
+| `$docker`        | `#0db7ed` |
+| `$dropbox`       | `#007ee5` |
+| `$drupal`        | `#0077c0` |
+| `$easyjet`       | `#ff6600` |
+| `$ebay`          | `#e53238` |
+| `$evernote`      | `#2dbe60` |
+| `$facebook`      | `#1877f2` |
+| `$firefox`       | `#e66000` |
+| `$google`        | `#4285f4` |
+| `$google-2`      | `#34a853` |
+| `$google-3`      | `#fbbc05` |
+| `$google-4`      | `#ea4335` |
+| `$groupon`       | `#82b548` |
+| `$linkedin`      | `#0a66c2` |
+| `$snapchat`      | `#fffc00` |
+| `$twitter`       | `#1d9bf0` |
+| `$vimeo`         | `#1ab7ea` |
+| `$vimeo-2`       | `#162221` |
+| `$whatsapp`      | `#25d366` |
+| `$youtube`       | `#ff0000` |
+| `$youtube-2`     | `#212121` |

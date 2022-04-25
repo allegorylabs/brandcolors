@@ -11,7 +11,7 @@ Official Brand Colors Collection.
 ## Installation
 
 ```shell
-npm install @brandcolors/core
+npm install @brandcolors/brandcolors
 ```
 
 ## Usage
@@ -19,7 +19,7 @@ npm install @brandcolors/core
 ### Styles
 
 ```scss
-@use "@brandcolors/core" as brandcolors;
+@use "@brandcolors/brandcolors" as brandcolors;
 
 .foo {
     color: brandcolors.$facebook;

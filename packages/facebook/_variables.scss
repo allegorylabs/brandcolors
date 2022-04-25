@@ -3,7 +3,7 @@
 // ============================================================================================= //
 
 @use "sass:color";
-@use "@brandcolors/core/variables";
+@use "@brandcolors/brandcolors/variables";
 
 $primary: variables.$facebook;
 $primary-rgb: rgb(color.red($primary), color.green($primary), color.blue($primary));
