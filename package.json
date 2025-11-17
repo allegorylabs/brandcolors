@@ -4,7 +4,7 @@
         "test:unit": "jest --ci --reporters=default --reporters=jest-junit",
         "test": "npm-run-all --parallel test:*",
         "postinstall": "lerna bootstrap --hoist",
-        "prepare": "husky install",
+        "prepare": "husky install && json-to-scss ./packages/core/src/colors.json ./_variables.scss --fk",
         "release:dry": "lerna version --no-push",
         "release": "lerna publish --force-publish *"
     },
